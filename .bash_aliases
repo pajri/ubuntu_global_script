@@ -26,3 +26,7 @@ alias redis_start='sudo service redis-server start'
 alias redis_status='sudo service redis-server status'
 alias redis_stop='sudo service redis-server stop'
 # endregion
+
+# region ===== git =====
+alias g='git'
+# endregion
