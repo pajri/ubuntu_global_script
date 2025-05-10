@@ -10,11 +10,11 @@ alias prompt_0='export prompt_dirtrim=0'
 # endregion
 
 # region ===== docker service management aliases =====
-alias docker-start='sudo systemctl start docker' # start docker service
-alias docker-stop='sudo systemctl stop docker' # stop docker service
-alias docker-enable='sudo systemctl enable docker' # enable docker service to start on boot
-alias docker-disable='sudo systemctl disable docker' # disable docker service from starting on boot
-alias docker-status='sudo systemctl status docker' # check docker service status
+alias docker_start='sudo systemctl start docker' # start docker service
+alias docker_stop='sudo systemctl stop docker' # stop docker service
+alias docker_enable='sudo systemctl enable docker' # enable docker service to start on boot
+alias docker_disable='sudo systemctl disable docker' # disable docker service from starting on boot
+alias docker_status='sudo systemctl status docker' # check docker service status
 # endregion
 
 # region ===== python =====
@@ -29,4 +29,8 @@ alias redis_stop='sudo service redis-server stop'
 
 # region ===== git =====
 alias g='git'
+# endregion
+
+# region ===== wiki =====
+alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server > ~/wiki_server.log 2>&1 &'
 # endregion
