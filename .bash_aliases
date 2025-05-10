@@ -1,4 +1,6 @@
 # region ===== common =====
+alias list='less ~/ubuntu_global_script/.bash_aliases'
+alias sbash='source ~/.bashrc'
 alias cls=clear
 # endregion
 
@@ -32,5 +34,7 @@ alias g='git'
 # endregion
 
 # region ===== wiki =====
-alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server > ~/wiki_server.log 2>&1 &'
+alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server > /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log 2>&1 &'
+alias wiki_tail='tail /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log'
+alias wiki_goto='cd /mnt/data/04_projects/personal_wiki/wiki/'
 # endregion
