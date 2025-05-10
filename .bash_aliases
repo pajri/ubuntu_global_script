@@ -34,7 +34,8 @@ alias g='git'
 # endregion
 
 # region ===== wiki =====
-alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server > /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log 2>&1 &'
+# alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server > /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log 2>&1 &'
+alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server'
 alias wiki_tail='tail /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log'
 alias wiki_goto='cd /mnt/data/04_projects/personal_wiki/wiki/'
 # endregion
