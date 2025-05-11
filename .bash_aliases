@@ -1,5 +1,5 @@
 # region ===== common =====
-alias list='less ~/ubuntu_global_script/.bash_aliases'
+alias list_alias='less ~/ubuntu_global_script/.bash_aliases'
 alias sbash='source ~/.bashrc'
 alias cls=clear
 # endregion
@@ -39,3 +39,10 @@ alias wiki_start='cd /mnt/data/04_projects/personal_wiki/wiki && node server'
 alias wiki_tail='tail /mnt/data/04_projects/personal_wiki/wiki/wiki_server.log'
 alias wiki_goto='cd /mnt/data/04_projects/personal_wiki/wiki/'
 # endregion
+
+# region ===== conda =====
+alias con='conda'
+alias cona='conda activate'
+alias cond='conda deactivate'
+alias cone='conda env'
+
