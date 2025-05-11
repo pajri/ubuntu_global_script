@@ -1,14 +1,15 @@
 # region ===== common =====
 alias list_alias='less ~/ubuntu_global_script/.bash_aliases'
+alias alias_edit='code ~/ubuntu_global_script/'
 alias sbash='source ~/.bashrc'
 alias cls=clear
 # endregion
 
 # region ===== custom prompt =====
-alias prompt_1='export prompt_dirtrim=1'
-alias prompt_2='export prompt_dirtrim=2'
-alias prompt_3='export prompt_dirtrim=3'
-alias prompt_0='export prompt_dirtrim=0'
+alias prompt_1='export PROMPT_DIRTRIM=1'
+alias prompt_2='export PROMPT_DIRTRIM=2'
+alias prompt_3='export PROMPT_DIRTRIM=3'
+alias prompt_0='export PROMPT_DIRTRIM=0'
 # endregion
 
 # region ===== docker service management aliases =====
