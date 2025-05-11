@@ -3,6 +3,8 @@ alias list_alias='less ~/ubuntu_global_script/.bash_aliases'
 alias alias_edit='code ~/ubuntu_global_script/'
 alias sbash='source ~/.bashrc'
 alias cls=clear
+alias pingg='ping google.com'
+alias s='source'
 # endregion
 
 # region ===== custom prompt =====
@@ -46,4 +48,10 @@ alias con='conda'
 alias cona='conda activate'
 alias cond='conda deactivate'
 alias cone='conda env'
+alias coni='conda install'
+alias conc='conda create'
+# endregion
 
+# region ===== venv =====
+alias venv_activate='source venv/bin/activate'
+# endregion
